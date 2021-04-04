@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Head>
         <title>Fashionbulous</title>
-        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <meta httpEquiv="X-UA-Compatible" content="ie=edge"/>
         <meta name="description" content="Fashion Design Website and E-commerce store"/>
         <meta name="keywords" content="Fashionbulous, fashion, ecommerce, Fashion Website"/>
         <link rel="icon" href="/favicon.ico" />
