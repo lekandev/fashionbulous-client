@@ -2,39 +2,37 @@ const Banner = () => {
     return (
         <div className="banner">
             <div className="banner__content">
-                <h1 className="banner__title">
-                    Fashionbulous
-                </h1>
-                <p className="banner__tagline">Creativity and Fashion Design at its best</p>
+                <h1 className="banner__title">Fashionbulous</h1>
+                <div className="banner__tagline">Creativity and Design at its best</div>
+                <a href="#" className="banner__button">Shop Now</a>
             </div>
+            <div className="banner__img"></div>
 
             <style jsx>
                 {`
                     .banner {
-                        width: 100%;
                         height: 100vh;
                         display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        background-color: #e1e1e1;
-                        border-bottom-right-radius: 40px;
-                        border-bottom-left-radius: 40px;
+                        background-color: #D1B000
                     }
 
                     .banner__content {
-                        text-align: center;
-                        background-color: #fff;
-                        border-radius: 10px;
-                        padding: 30px;
+                        margin: 15em 15em
                     }
 
-                    h1 {
+                    .banner__title {
                         font-size: 4rem;
-                        letter-spacing: .5rem;
+                        margin-bottom: 20px
                     }
 
-                    p {
+                    .banner__tagline {
                         font-size: 1.5rem;
+                        margin-bottom: 40px
+                    }
+
+                    .banner__button {
+                        padding: 15px;
+                        background-color: #FFFDD0;
                     }
                 `}
             </style>

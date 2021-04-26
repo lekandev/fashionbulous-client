@@ -10,8 +10,8 @@ const ProductCard = ({ productImage, productName, price, category }) => {
             </div>
             <style jsx>{`
                 .productCard {
-                    width: 225px;
-                    height: 300px;
+                    width: 350px;
+                    height: 350px;
                     border: 1px solid #707070;
                     border-radius: 10px;
                     margin: 50px;
@@ -22,7 +22,7 @@ const ProductCard = ({ productImage, productName, price, category }) => {
                     border-bottom: 1px solid #707070;
                     border-radius: 10px;
                     width: 100%;
-                    height: 180px;
+                    height: 250px;
                 }
 
                 .product__info {

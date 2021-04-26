@@ -12,7 +12,7 @@ const FeaturedProducts = () => {
           {`
                     .featuredProducts {
                         width: 100%;
-                        height: 400px;
+                        height: 500px;
                     }
 
                     .featuredProducts__container {

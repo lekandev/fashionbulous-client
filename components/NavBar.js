@@ -23,6 +23,10 @@ const NavBar = () => {
                         display: flex;
                         justify-content: space-between;
                         padding: 10px;
+                        border-radius: 100px;
+                        background-color: #FFFDD0;
+                        position: relative;
+                        top: 10px;
                     }
 
                     h1 {
