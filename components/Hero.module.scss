@@ -13,19 +13,28 @@
 
         .hero__title {
             letter-spacing: 1.1rem;
-            font-size: 3.5rem;
+            font-size: 3.7rem;
             margin-bottom: 20px;
+            text-transform: uppercase;
         }
 
         .hero__tagline {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
         }
 
         .hero__button {
             margin-bottom: 20px;
-            padding: 10px 20px;
+            padding: 10px 35px;
             color: $tertiary-color;
-            border: 2px solid $secondary-color;
+            border: 1px solid $secondary-color;
+            background-color: $secondary-color;
+            transition: .5s ease-in-out;
+        }
+
+        .hero__button:hover {
+            color: $secondary-color;
+            border: 1px solid $secondary-color;
+            background-color: transparent;
         }
     }
 }

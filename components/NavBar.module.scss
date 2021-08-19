@@ -1,17 +1,26 @@
+@import '../utilities/variables';
+
 .navbar {
-    width: 100%;
+    width: 97%;
     height: 65px;
     padding: 20px;
-    box-shadow: 0 14px 25px -18px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 30px -4px rgba(0, 0, 0, 0.8);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    background-color: $tertiary-color;
+    border-radius: 10px;
+    top: 10px;
+    left: 1.5%;
+    z-index: 1;
 
     .navbar__list {
         display: flex;
+        list-style-type: none;
         
         .navbar__listItems:not(:last-child) {
-            margin-right: 35px;
+            margin-right: 60px;
         }
     }
 }
