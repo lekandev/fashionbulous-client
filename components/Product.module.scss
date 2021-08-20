@@ -3,4 +3,12 @@
     background-color: #f3f3f3;
     box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.8);
     border-radius: 5px;
+
+    .product__info {
+        padding: 10px;
+    }
+}
+
+.rectProduct {
+    display: flex;
 }
